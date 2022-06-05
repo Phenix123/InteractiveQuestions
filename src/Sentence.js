@@ -15,7 +15,7 @@ function Sentence({ answeredWords, onDropped }) {
             id={word.id}
             disabled={!word.enabled}
           />
-          <PlaceForWord id={i + 1} />
+          <PlaceForWord id={i+1} />
         </i>
       ))}
       {lastIndex != 1 ? <PlaceForWord id={lastIndex} /> : ""}

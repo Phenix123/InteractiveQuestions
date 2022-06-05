@@ -41,7 +41,7 @@ const words_from_server = () => {
       "    ],\n" +
       "    \n" +
       '  "messages": [\n' +
-      '    {"value": "Warning message", "state": "warning"}\n' +
+      '    {"value": "Warning message", "state": "error"}\n' +
       "    ]\n" +
       "}"
   );

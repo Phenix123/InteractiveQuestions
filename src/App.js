@@ -94,6 +94,7 @@ function App() {
           </Button>
         </Paper>
 
+        {alertType &&
         <Collapse in={open}>
           <Alert
             severity={alertType}
@@ -115,6 +116,7 @@ function App() {
             {alertVal}
           </Alert>
         </Collapse>
+        }
       </Container>
     </div>
   );
